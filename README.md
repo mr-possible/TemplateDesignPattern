@@ -1,2 +1,2 @@
 # TemplateDesignPattern
-This repository contains a test automation framework build on the principles of 'Template Design Pattern'.
+This repository contains a test automation framework built on the principles of 'Template Design Pattern'.
