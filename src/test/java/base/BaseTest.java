@@ -1,7 +1,7 @@
 package base;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -14,11 +14,10 @@ public class BaseTest {
 
     @BeforeTest
     public void setupDriver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sambhav\\Desktop\\StrategyPattern_Demo\\browser drivers\\chromedriver.exe");
-        this.driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        this.driver = WebDriverManager.chromedriver().create();
+        this.driver.manage().window().maximize();
+        this.driver.manage().deleteAllCookies();
+        this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @AfterTest
