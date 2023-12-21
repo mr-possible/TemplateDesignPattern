@@ -1,11 +1,5 @@
 package templates;
 
-/**
- * Created By: Sambhav
- * Created On: 25-09-2020 || 09:56 PM
- * Project Name: TemplateDesignPattern
- **/
-
 
 public abstract class reservationTemplate {
 

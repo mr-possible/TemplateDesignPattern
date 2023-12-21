@@ -7,11 +7,6 @@ import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created By: Sambhav
- * Created On: 25-09-2020 || 11:06 PM
- * Project Name: TemplateDesignPattern
- **/
 
 public class BaseTest {
 

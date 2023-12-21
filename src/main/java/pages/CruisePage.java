@@ -9,12 +9,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import templates.reservationTemplate;
 
-/**
- * Created By: Sambhav
- * Created On: 25-09-2020 || 10:10 PM
- * Project Name: TemplateDesignPattern
- **/
-
 public class CruisePage extends reservationTemplate {
 
     private WebDriver driver;

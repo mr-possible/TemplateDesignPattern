@@ -12,11 +12,6 @@ import templates.reservationTemplate;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created By: Sambhav
- * Created On: 25-09-2020 || 10:10 PM
- * Project Name: TemplateDesignPattern
- **/
 
 public class CarPage extends reservationTemplate {
 

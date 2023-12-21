@@ -6,12 +6,6 @@ import pages.CruisePage;
 import pages.FlightPage;
 import templates.reservationTemplate;
 
-/**
- * Created By: Sambhav
- * Created On: 25-09-2020 || 11:01 PM
- * Project Name: TemplateDesignPattern
- **/
-
 public class ReservationTest extends BaseTest {
 
 
